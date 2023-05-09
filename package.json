@@ -1,0 +1,27 @@
+{
+  "name": "daily-daniel-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "vercel-build": "prisma generate && prisma migrate deploy && yarn build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.6",
+    "@prisma/client": "^4.13.0",
+    "@types/node": "20.1.1",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "next-auth": "^4.22.1",
+    "prisma": "^4.13.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}

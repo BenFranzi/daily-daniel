@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  database:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./volumes/postgres:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_USER: daniel
+      POSTGRES_PASSWORD: S3CUREP455WORD
+      POSTGRES_DB: dailydaniel

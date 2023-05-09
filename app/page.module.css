@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+}
+
+.fold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+.heading {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading h1, .heading h2  {
+    margin: 0;
+}
+.heading p {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.cta {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}

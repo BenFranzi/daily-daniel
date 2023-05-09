@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.pic {
+    border: 60px solid transparent;
+    border-image: url("/wood-texture.jpeg") 30 round;
+    box-shadow: 4px 4px 10px 0 black;
+}

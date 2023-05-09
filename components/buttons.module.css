@@ -1,0 +1,25 @@
+.signin {
+    background: black;
+    cursor: pointer;
+    color: white;
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.signin:not(:disabled):hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.02);
+}
+
+.signin:disabled {
+    opacity: 50%;
+}

@@ -1,0 +1,13 @@
+:root {
+    --bg-rgb: 253, 247, 84;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: rgb(var(--bg-rgb));
+    font-family: sans-serif;
+}
